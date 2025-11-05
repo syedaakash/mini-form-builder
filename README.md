@@ -1,7 +1,6 @@
 # Mini Form Builder
 
-A basic **Vue 3 + TypeScript** form builder setup with **Vite**, **Vitest**, **Tailwind CSS**, **ESLint**, and **Prettier**.  
-Built for learning, focused on clean structure and modern best practices.
+A simple no-code form builder, create and edit form questions dynamically in a clean, interactive UI.
 
 ## Tech Stack
 
