@@ -15,7 +15,7 @@ Built for learning, focused on clean structure and modern best practices.
 
 ```bash
 # Install dependencies
-yarn install
+yarn
 
 # Run development server
 yarn dev
