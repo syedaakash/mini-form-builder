@@ -26,7 +26,7 @@
 
     <div :class="['content-wrapper', currentView]">
       <div v-if="currentView !== 'preview'" class="builder-section">
-        <AddQuestionPanel />
+        <AddQuestionPanel size="sm" />
         <QuestionList />
       </div>
 

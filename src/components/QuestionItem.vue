@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { useQuestionsStore, type Question } from '../stores/useQuestionsStore';
 
 const props = defineProps<{ question: Question }>();
-const emit = defineEmits<{ remove: [id: number] }>();
+defineEmits<{ remove: [id: number] }>();
 
 const store = useQuestionsStore();
 const isEditing = ref(false);

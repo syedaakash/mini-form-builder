@@ -2,6 +2,7 @@
 import { storeToRefs } from 'pinia';
 import { useQuestionsStore } from '../stores/useQuestionsStore';
 import QuestionItem from './QuestionItem.vue';
+import AddQuestionPanel from './AddQuestionPanel.vue';
 
 const store = useQuestionsStore();
 const { questions } = storeToRefs(store);
@@ -18,6 +19,7 @@ function removeQuestion(id: number) {
       :question="q"
       @remove="removeQuestion"
     />
+    <AddQuestionPanel size="lg" />
   </div>
 </template>
 
