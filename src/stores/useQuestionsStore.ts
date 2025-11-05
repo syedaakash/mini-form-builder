@@ -74,6 +74,7 @@ export const useQuestionsStore = defineStore('questions', () => {
 
   const reorderQuestions = (fromIndex: number, toIndex: number) => {
     const [removed] = questions.value.splice(fromIndex, 1);
+    if (!removed) return;
     questions.value.splice(toIndex, 0, removed);
   };
 
