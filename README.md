@@ -1,14 +1,21 @@
-# Commands I used
+# Mini Form Builder
 
-```
-yarn add -D vitest
-yarn pinia
-yarn add sass
-yarn add -D eslint@latest prettier@latest typescript-eslint@latest eslint-plugin-vue@latest vue-eslint-parser@latest eslint-config-prettier@latest
-```
+A basic **Vue 3 + TypeScript** form builder setup with **Vite**, **Vitest**, **Tailwind CSS**, **ESLint**, and **Prettier**.  
+Built for learning, focused on clean structure and modern best practices.
 
-## Might need
+## Tech Stack
 
-```
-yarn add jsdom @vue/test-utils -D
-```
+- **Vue 3** (Composition API)
+- **TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **ESLint + Prettier**
+
+## Setup
+
+```bash
+# Install dependencies
+yarn install
+
+# Run development server
+yarn dev
