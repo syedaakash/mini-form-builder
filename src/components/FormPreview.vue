@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import { storeToRefs } from 'pinia';
-import { useQuestionsStore, type Question } from '../stores/useQuestionsStore';
+import { useQuestionsStore } from '../stores/useQuestionsStore';
 
 const store = useQuestionsStore();
 const { questions } = storeToRefs(store);
