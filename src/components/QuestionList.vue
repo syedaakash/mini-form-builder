@@ -11,6 +11,7 @@ function removeQuestion(id: number) {
   store.removeQuestion(id);
 }
 </script>
+
 <template>
   <div class="question-list">
     <QuestionItem
@@ -19,7 +20,7 @@ function removeQuestion(id: number) {
       :question="q"
       @remove="removeQuestion"
     />
-    <AddQuestionPanel size="lg" />
+    <AddQuestionPanel v-if="questions.length > 1" size="lg" />
   </div>
 </template>
 
